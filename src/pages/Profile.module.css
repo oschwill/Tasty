@@ -1,0 +1,127 @@
+.profile {
+  min-height: 100vh;
+}
+
+.profile h1 {
+  color: var(--brand-secondary);
+  font-size: 3rem;
+  text-align: center;
+  padding: 50px;
+}
+
+.profile_image {
+  border-radius: 50%;
+  outline: 3px solid var(--brand-secondary);
+  cursor: pointer;
+  width: 85px;
+}
+
+.flexcontainer {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.flexcontainer h4 {
+  font-size: 1.4rem;
+  margin-top: 30px;
+}
+
+.flexcontainer p {
+  font-size: 1.75rem;
+  margin-top: 5px;
+}
+
+.inputcontainer {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.inputcontainer label {
+  display: block;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.inputcontainer textarea {
+  height: 140px;
+  width: 100%;
+  border: 1px solid var(--brand-secondary);
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+.inputcontainer button {
+  text-decoration: none;
+  text-align: center;
+  border-radius: 10px;
+  background-color: var(--brand-secondary);
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 800;
+  display: block;
+  margin-left: auto;
+  padding: 10px 0;
+  width: 25%;
+  transition: 1s;
+}
+
+.dark .input {
+  background-color: #02191a7b;
+  color: white;
+}
+
+.icon {
+  font-family: Montserrat;
+  color: black;
+  position: fixed;
+  bottom: 10%;
+}
+
+.icon p {
+  display: inline;
+  font-size: 1rem;
+}
+
+.icon a {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+}
+
+.name > div {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.name svg {
+  height: 20px;
+}
+
+.input {
+  padding: 5px;
+  border-radius: 5px;
+  width: 85%;
+  overflow: hidden;
+}
+
+@media only screen and (min-width: 768px) {
+  .flexcontainer {
+    justify-content: space-around;
+  }
+
+  .flexcontainer p {
+    font-size: 2.25rem;
+  }
+}

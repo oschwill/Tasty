@@ -1,0 +1,21 @@
+.img_category {
+  width: 170px;
+}
+.item_category h3 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-top: 15px;
+}
+.link_categorie {
+  text-decoration: none;
+  color: var(--dark);
+  width: 70%;
+  margin: 20px;
+  display: inline-block;
+}
+
+@media only screen and (min-width: 768px) {
+  .img_category {
+    width: 200px;
+  }
+}
